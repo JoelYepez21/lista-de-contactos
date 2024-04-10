@@ -21,15 +21,15 @@ let contacts = [];
 // Functions
 const validateInput = (input, validation) => {
   const infoText = input.parentElement.children[2];
-  const infonumber = input.parentElement.children[3];
+  // const infonumber = input.parentElement.children[3];
   
-  contacts.forEach(contact => {  
-    if (input.value == contact.number && validation){
-      infonumber.classList.add('show-info');
+  // contacts.forEach(contact => {  
+  //   if (input.value == contact.number && validation){
+  //     infonumber.classList.add('show-info');
       
-      validation = false;
-    } 
-  });
+  //     validation = false;
+  //   } 
+  // });
   if (input.value === '') {
     input.classList.remove('correct');
     input.classList.remove('incorrect');
