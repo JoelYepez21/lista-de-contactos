@@ -1,0 +1,32 @@
+li {
+  display: flex;
+  gap: 1rem;
+}
+
+.delete-btn > .delete-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.edit-btn > .edit-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.info {
+  display: none;
+}
+
+input{
+  outline: none;
+}
+
+.correct{
+  outline: 2px solid rgb(0, 255, 0);
+}
+.incorrect{
+  outline: 2px solid red;
+}
+.show-info{
+  display: block;
+}
